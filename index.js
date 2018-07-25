@@ -19,12 +19,12 @@ function createFareMultiplier(multiplier) {
 }
 
 function fareDoubler(fare) {
-  const doubler = createFareMultiplier(2)
+  const doubler = createFareMultiplier(2)(fare)
   return doubler;
 }
 
 function fareTripler(fare) {
-  const tripler = createFareMultiplier(3)
+  const tripler = createFareMultiplier(3)(fare)
   return tripler;
 }
 
