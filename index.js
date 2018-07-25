@@ -1,13 +1,11 @@
 // Code your solution in this file!
 
-function returnFirstTwoDrivers(drivers) {
-  const firstTwo =  drivers.slice(0,2);
-  return firstTwo;
+const returnFirstTwoDrivers = function (drivers) {
+  return drivers.slice(0,2)
 }
 
-function returnLastTwoDrivers(drivers) {
-  const lastTwo = drivers.slice(-2);
-  return lastTwo;
+const returnLastTwoDrivers = function (drivers) {
+  return drivers.slice(-2)
 }
 
 function selectingDrivers() {
