@@ -20,12 +20,12 @@ function createFareMultiplier(multiplier) {
 
 function fareDoubler(fare) {
   const doubler = createFareMultiplier(2)(fare)
-  return doubler;
+  return doubler();
 }
 
 function fareTripler(fare) {
   const tripler = createFareMultiplier(3)(fare)
-  return tripler;
+  return tripler();
 }
 
 function selectingDifferentDrivers(drivers, fn) {
