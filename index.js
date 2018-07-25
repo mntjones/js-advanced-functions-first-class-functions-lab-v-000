@@ -19,13 +19,13 @@ function createFareMultiplier(multiplier) {
 }
 
 function fareDoubler(fare) {
-  const doubler = createFareMultiplier(2)(fare)
-  return doubler;
+  const doubler = createFareMultiplier(2)
+  return doubler();
 }
 
 function fareTripler(fare) {
-  const tripler = createFareMultiplier(3)(fare)
-  return tripler;
+  const tripler = createFareMultiplier(3)
+  return tripler();
 }
 
 function selectingDifferentDrivers(drivers, fn) {
